@@ -271,7 +271,7 @@ startMeasuring = do
     let d1 = timespecToDuration now
     return (StartOfDuration d1)
 
--- | How long since the start of measuring has it mean, plus or minus 'measurementEpsilon'
+-- | How long since the start of measuring has it been, plus or minus 'measurementEpsilon'
 durationSince :: StartOfDuration -> IO Duration
 durationSince s = do
     now <- getTime Monotonic
@@ -282,6 +282,7 @@ durationSince s = do
 -- | About how accurate is are the methods 'durationSince' and 'startMeasuring'
 measurementEpsilon :: IO Duration
 measurementEpsilon = return (durationFromMilliseconds 100)
+
     {-  ugg, this does not seem to give a reasonable e
     do
        res <- getRes Monotonic
