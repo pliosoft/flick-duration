@@ -1,6 +1,4 @@
-# Fast and Easy Durations with `flick-duration`
-
-[![Build Status](https://travis-ci.com/pliosoft/flick-duration.svg?branch=master)](https://travis-ci.com/pliosoft/flick-duration)
+# Fast and Easy Durations with `flick-duration` [![Build Status](https://travis-ci.com/pliosoft/flick-duration.svg?branch=master)](https://travis-ci.com/pliosoft/flick-duration) [![Hackage](https://img.shields.io/hackage/v/flick-duration.svg?style=flat)](https://hackage.haskell.org/package/flick-duration)
 
 The unit of time called the [Flick](https://en.wikipedia.org/wiki/Flick_(time)) is equivalent to exactly 1/705,600,000 of a second.
 
@@ -18,7 +16,7 @@ A similar unit for integer representation of temporal points was proposed in 200
 This makes 1 TimeRef equivalent to 50 Flicks.
 
 First I saw of this idea was
-[https://www.facebook.com/christopher.horvath.395/posts/1157292757692660](Christopher Horvath)'s description.
+[Christopher Horvath](https://www.facebook.com/christopher.horvath.395/posts/1157292757692660])'s description.
 
 * 24 fps frame:     29,400,000 flicks
 * 25 fps frame:     28,224,000 flicks
