@@ -1,6 +1,6 @@
-# `flick-duration` [![Build Status](https://travis-ci.com/pliosoft/flick-duration.svg?branch=master)](https://travis-ci.com/pliosoft/flick-duration) [![Hackage](https://img.shields.io/hackage/v/flick-duration.svg?style=flat)](https://hackage.haskell.org/package/flick-duration) [Buy me a coffee](https://www.buymeacoffee.com/clord)
+# `flick-duration` [![Build Status](https://travis-ci.com/pliosoft/flick-duration.svg?branch=master)](https://travis-ci.com/pliosoft/flick-duration) [![Hackage](https://img.shields.io/hackage/v/flick-duration.svg?style=flat)](https://hackage.haskell.org/package/flick-duration) 
 
-The unit of time called the [Flick](https://en.wikipedia.org/wiki/Flick_(time)) is equivalent to exactly 1/705,600,000 of a second.
+The unit of time called the [Flick](https://en.wikipedia.org/wiki/Flick_(time)) is equivalent to exactly 1/705,600,000 of a second. [Buy me a coffee](https://www.buymeacoffee.com/clord).
 
 Flicks are a small unit of time that are very evenly divisible by common file format time durations; i.e., for common durations they will have no rounding.
 
